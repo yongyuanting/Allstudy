@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a{
+            /*width: 300px;*/
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            height: 33px;
+            line-height: 33px;
+            background: url("images/to.png") no-repeat left;
+            padding-left: 15px;  /*把span向右挤点，而不是把span里的文字向右挤*/
+        }
+        a span{
+            display: inline-block;
+            height: 33px;
+            background: url("images/to.png") no-repeat right;
+            padding-right: 15px;
+        }
+        ul{
+            display: inline-block;
+            width: 100%;
+            background-color: black;
+        }
+        li{
+            float: left;
+            margin-left: 80px;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>
+        <a href="#">
+            <span>首页</span>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <span>乱杀</span>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <span>上海doUI按实际地哦啊</span>
+        </a>
+    </li>
+</ul>
+
+</body>
+</html>

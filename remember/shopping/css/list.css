@@ -1,0 +1,66 @@
+/*列表页专有CSS*/
+.sk{
+    padding: 3px 0 0 14px;
+    position: absolute;
+    border-left: 1px solid #f10215;
+    left: 190px;
+    top: 40px;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0a0a0a;
+}
+.sk_con{
+    float: left;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+    /*font-weight: 400;*/
+    /*color: #0a0a0a;*/
+}
+.sk_con ul li:last-child a::after{
+    content: "\e91e";
+    font-family: "icomoon";
+}
+.sk_bd ul li {
+    margin-top: 10px;
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd ul li a{
+    display: block;
+    margin: 0 auto;
+    line-height: 53px;
+    text-align: center;
+    width: 100%;
+    height: 53px;
+    background-color: #f10215;
+    color: white;
+    font-size: 18px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:hover{
+    border: 1px solid #f10215;
+}

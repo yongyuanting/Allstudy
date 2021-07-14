@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7922112-c67c-44f9-bc60-cb1c768593e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/remember.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/.idea/day7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/02滑动门.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/abcd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/jd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/mi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/to.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/tudou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/images/wx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/css/yundaochange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/fdj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/images/jiameng_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/images/yingxiao_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/pro1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/ser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/images/tb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day7/云道页面/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/demo-files/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/demo-files/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/ie7/ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/ie7/ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/icomoon-v1.0/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/images/computer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/images/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/images/sprite-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/images/top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/jd/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/cartPanelViewIcons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/error_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/meiri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/regetype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/success_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/images/wx_cz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/bargain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/phone_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/shoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping/upload/shoe_03.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1koXRDKrZThsmPcbXnGqDtfai9r" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\black-horse\remember\day3" />
+      <recent name="D:\black-horse\remember\day3\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\black-horse\remember\shopping\css" />
+      <recent name="D:\black-horse\remember\day8" />
+      <recent name="D:\black-horse\remember\day8\jd" />
+      <recent name="D:\black-horse\remember\day7\云道页面" />
+      <recent name="D:\black-horse\remember\day7" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7922112-c67c-44f9-bc60-cb1c768593e7" name="Default Changelist" comment="" />
+      <created>1606367907566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606367907566</updated>
+      <workItem from="1606367908646" duration="3726000" />
+      <workItem from="1606711688514" duration="2817000" />
+      <workItem from="1606800086122" duration="2652000" />
+      <workItem from="1606881836217" duration="1028000" />
+      <workItem from="1607131243796" duration="11446000" />
+      <workItem from="1607312693976" duration="786000" />
+      <workItem from="1608006946057" duration="10119000" />
+      <workItem from="1608189167092" duration="7879000" />
+      <workItem from="1608513130232" duration="3971000" />
+      <workItem from="1608519401288" duration="5355000" />
+      <workItem from="1611206724250" duration="5567000" />
+      <workItem from="1611295732336" duration="6767000" />
+      <workItem from="1611554891649" duration="6156000" />
+      <workItem from="1611819460738" duration="1209000" />
+      <workItem from="1612054220482" duration="18135000" />
+      <workItem from="1612142891573" duration="1865000" />
+      <workItem from="1612228076880" duration="1426000" />
+      <workItem from="1623632394161" duration="610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1066" y="221" key="#Inspections" timestamp="1611207967834">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1066" y="221" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1611207967834" />
+    <state x="691" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608011308223">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="691" y="340" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608011308223" />
+    <state x="329" y="220" key="FileChooserDialogImpl" timestamp="1612229502755">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="329" y="220" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1612229502755" />
+    <state x="329" y="220" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608007000881" />
+    <state x="964" y="3" width="952" height="1066" key="dock-window-1" timestamp="1608014121611">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="964" y="3" width="952" height="1066" key="dock-window-1/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608014121611" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1612080210594">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1612080210594" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1612080212513">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1612080212513" />
+  </component>
+</project>

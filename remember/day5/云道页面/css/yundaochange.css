@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #fafafa;
+}
+/*导航栏开始*/
+.header{
+    height: 100px;
+}
+.inner{
+    /*background-color: pink;*/
+    margin: 0 auto;
+    height: 100px;
+    width: 1200px;
+    line-height: 100px;
+}
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+}
+.nav li{
+    float: left;
+    margin-right: 40px;
+}
+.nav li a{
+    font-size: 14px;
+    color: #0a0a0a;
+}
+.nav li a:hover{
+    color: skyblue;
+}
+/*导航栏结束*/
+/*轮播图开始*/
+.banner{
+    height: 620px;
+    background-image: url(../../images/banner.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+/*轮播图结束*/
+/*服务开始*/
+.service{
+    width: 1055px;
+    /*background-color: pink;*/
+    margin: 50px auto 0;
+}
+.service-logo{
+    margin: -15px auto 0;
+    width: 167px;
+    height: 46px;
+    background-image: url(../../images/ser.png);
+}
+.service-hd{
+    border-top: 1px solid black;
+    margin: 0 25px;
+}
+.service-hd p {
+    font-size: 12px;
+    color: #666;
+    line-height: 26px;  /*行高*/
+    text-align: center;
+    margin: 15px auto 0;
+    width: 830px;
+}
+/*服务结束*/

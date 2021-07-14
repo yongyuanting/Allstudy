@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*
+            合并相邻边框
+            border-collapse:collapse
+        */
+        div{
+            width: 600px;
+            height: 300px;
+            line-height: 300px;
+            background-color: skyblue;
+        }
+        span{
+            display: inline-block;
+            width: 600px;
+            height: 300px;
+            text-align: center;
+            background-color: pink;
+            /*固定*/
+            /*background-attachment: fixed;*/
+        }
+        .center{
+            width: 600px;
+            height: 300px;
+            line-height: 300px;
+            background-color: yellowgreen;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>上下居中</div>
+    <span>左右居中</span>
+    <div class="center">上下左右居中</div>
+</body>
+</html>

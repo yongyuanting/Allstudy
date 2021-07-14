@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+.clearfix:after {  content: ""; display: block; height: 0; clear: both; visibility: hidden;  }
+
+.clearfix {*zoom: 1;}   /* IE6、7 专有 */
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #fafafa;
+}
+/*导航栏开始*/
+.header{
+    height: 100px;
+}
+.inner{
+    /*background-color: pink;*/
+    margin: 0 auto;
+    height: 100px;
+    width: 1200px;
+    line-height: 100px;
+}
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+}
+.nav li{
+    float: left;
+    margin-right: 40px;
+}
+.nav li a{
+    font-size: 14px;
+    color: #0a0a0a;
+}
+.nav li a:hover{
+    color: skyblue;
+}
+/*导航栏结束*/
+/*轮播图开始*/
+.banner{
+    height: 620px;
+    background-image: url(../images/banner.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+/*轮播图结束*/
+/*服务开始*/
+.service{
+    width: 1055px;
+    /*background-color: pink;*/
+    margin: 50px auto 0;
+}
+.service-logo{
+    margin: -15px auto 0;
+    width: 167px;
+    height: 46px;
+    background-image: url(../images/ser.png);
+}
+.service-hd{
+    border-top: 1px solid black;
+    margin: 0 25px;
+}
+.service-hd p {
+    font-size: 12px;
+    color: #666;
+    line-height: 26px;  /*行高*/
+    text-align: center;
+    margin: 15px auto 0;
+    width: 830px;
+}
+/*主内容开始*/
+.service-main{
+    width: 1104px;
+    /*background-color: pink;*/
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.main01{
+    width: 320px;
+    height: 510px;
+    margin-right: 72px;
+    /*background-color: skyblue;*/
+    padding-top: 50px;
+    float: left;
+}
+.img01{
+    width: 248px;
+    height: 132px;
+    margin: 0 auto 50px;
+}
+.main01 h3{
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    color: #585858;
+}
+.main01 p{
+    margin: 20px auto 0;
+    padding: 0 42px;
+    font-size: 16px;
+    color: #666;
+}
+.mainbutton{
+    width: 148px;
+    height: 36px;
+    margin: 40px auto 0;
+    border: 1px solid #ff9412;
+    border-radius: 5px;
+
+}
+.mainbutton a{
+    display: inline-block;
+    width: 148px;
+    height: 36px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff9412;
+    line-height: 38px;
+}
+.mainbutton a:hover{
+    background-color: #ff9412;
+    color: #fff;
+    border-radius: 5px;
+}
+#main01{
+    float: right;
+    margin: 0;
+}
+.maintext{
+    width: 318px;
+    height: 170px;
+}
+/*主内容结束*/
+/*服务结束*/
+/*经典案例开始*/
+.anli{
+    width: 1055px;
+    /*background-color: pink;*/
+    margin: 50px auto 0;
+    border-top: 1px solid black;
+}
+.anli-bd{
+    width: 1104px;
+    margin: 20px auto;
+    /*overflow: hidden;       !*不能用这个，小图标出去消失*!*/
+    position: relative;
+}
+.anliimg{
+    width: 167px;
+    height: 48px;
+    margin: -24px auto 0;
+}
+.anlimain{
+    float: left;
+    position: relative;
+}
+.text{
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.3);
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-size: 12px;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    background-image: url("../images/fdj.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.anlimain:hover .mask{
+    display: block;
+}
+#yingxiang{
+    margin: 0 66px;
+}
+.left,.right{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 60px;
+    color: white;
+}
+.left{
+    left: -80px;
+}
+.right{
+    right: -80px;
+}
+.change:hover{
+    background-color: skyblue;
+}
+/*经典案例结束*/
+/*合作媒体开始*/
+.media-bd{
+    width: 1048px;
+    /*background-color: pink;*/
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+.media-bd ul{
+    width: 1060px;
+}
+.media-bd li{
+    width: 210px;
+    height: 60px;
+    /*background-color: pink;*/
+    border: 1px dashed red;
+    float: left;
+    border-top: none;
+    border-left: none;
+    text-align: center;
+    padding-top: 20px;
+}
+/*合作媒体结束*/
+
+/*底部栏开始*/
+.footer{
+    height: 165px;
+    background-color: #212425;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.subnav{
+    margin-top: 50px;
+    text-align: center;
+    color: #f0f1f2;
+    font-size: 14px;
+}
+.subnav a{
+    color: #f0f1f2;
+    font-size: 14px;
+    margin: 0 5px;
+}
+.subnav a:hover{
+    color: skyblue;
+    text-decoration: underline;
+}
+.footer p{
+    text-align: center;
+    color: #888888;
+    margin-top: 50px;
+}
+/*底部栏结束*/

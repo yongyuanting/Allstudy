@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47786b78-187c-4aa7-83ec-34211bd1af59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/remember.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day6/01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/day7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02滑动门.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/abcd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/to.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tudou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/wx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/css/yundaochange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/case.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/fdj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/images/jiameng_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/images/yingxiao_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/pro1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/ser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/images/tb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/云道页面/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1llznEFIU1ArdVywKiuUc4RJT7F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47786b78-187c-4aa7-83ec-34211bd1af59" name="Default Changelist" comment="" />
+      <created>1608186631237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608186631237</updated>
+      <workItem from="1608186632369" duration="2527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1220" y="298" key="FileChooserDialogImpl" timestamp="1608189164115">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1220" y="298" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1608189164115" />
+  </component>
+</project>
