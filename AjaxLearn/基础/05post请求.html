@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btnPost">发起POST请求</button>
+<script src='../lib/js/jquery.js'></script>
+<script>
+    $(function (){
+        $('#btnPost').on('click',function (){
+            $.ajax({
+                type:'POST',
+                url:'http://www.liulongbin.top:3006/api/addbook',
+                data:{
+                    bookname:'乱杀a',
+                    author: '乱杀a',
+                    publisher:'乱杀出版社a'
+                },
+                success:function (res){
+                    alert(res.msg);
+                }
+            })
+        })
+    })
+</script>
+</body>
+</html>

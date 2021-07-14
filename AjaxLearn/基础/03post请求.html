@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button id="btnPost">发起post请求</button>
+
+<script src='../lib/js/jquery.js'></script>
+<script>
+    $(function (){
+        $('#btnPost').on('click',function (){
+            $.post('http://www.liulongbin.top:3006/api/addbook',{bookname:'永逺亭',author:'yyt',publisher:'北京图书'},function (res){
+                alert(res);
+            })
+        })
+    })
+</script>
+</body>
+</html>

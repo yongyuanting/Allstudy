@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--get会在url中显示提交的数据，post会隐藏但是可以通过F12里面的Network Headers查看-->
+<!--使用文件上传必须用这个enctype-->
+<form action="/login" target="_self" method="get" enctype="multipart/form-data">
+    <input type="text" name="email_or_mobile">
+    <input type="password" name="password">
+    <button type="submit">提交</button>
+</form>
+
+<script>
+
+</script>
+</body>
+</html>

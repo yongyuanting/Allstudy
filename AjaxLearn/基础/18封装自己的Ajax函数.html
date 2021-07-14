@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/yyt.js"></script>
+</head>
+<body>
+<script>
+    yyt({
+        method:'POST',
+        url:'http://www.liulongbin.top:3006/api/addbook',
+        data:{
+            bookname:'yyt',
+            author:'yyt',
+            publisher:'yyt'
+        },
+        success:function (res){
+            console.log(res)
+        }
+    })
+    yyt({
+        method:'GET',
+        url:'http://www.liulongbin.top:3006/api/getbooks',
+        data:{
+            // id:1,
+            bookname:'yyt'
+        },
+        success:function (res){
+            console.log(res)
+        }
+    })
+</script>
+</body>
+</html>

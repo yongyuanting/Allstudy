@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //json转为js对象    反序列化
+    // var jsonStr = '{"a":"hello","b":"world"}'
+    // var obj = JSON.parse(jsonStr)
+    // console.log(obj)
+    //js对象转为json    序列化
+    // var obj2 = {a:'hello',b:'world',c:false,d:20,e:null}
+    // var str=JSON.stringify(obj2)
+    // console.log(str)
+    var xhr = new XMLHttpRequest()
+    xhr.open('GET','http://www.liulongbin.top:3006/api/getbooks')
+    xhr.send()
+    xhr.onreadystatechange = function (){
+        if (xhr.readyState===4 && xhr.status===200){
+            console.log(xhr.responseText)
+            console.log(typeof xhr.responseText)
+
+            var result = JSON.parse(xhr.responseText)
+            console.log(result)
+        }
+    }
+</script>
+</body>
+</html>

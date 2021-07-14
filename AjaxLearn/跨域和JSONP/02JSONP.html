@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../lib/js/jquery.js"></script>
+</head>
+<body>
+<script>
+    /**
+     * 底层原理利用script标签不收到Ajax同源的限制
+     * JSONP实现原理
+     */
+    // $.ajax({
+    //     method:'GET',
+    //     url:'http://ajax.frontend.itheima.net:3006/api/jsonp',
+    //     data:{
+    //         name:'yyt',
+    //         age:22
+    //     },
+    //     success:function (res){
+    //         console.log(res)
+    //     }
+    // })
+    function success(data){
+        console.log("拿到了Data数据：")
+        console.log(data)
+    }
+</script>
+<!--用查询字符串的方式告诉服务器，使用callback后面的函数来调用-->
+<script src="js/getData.js?callback=success"></script>
+<!--<script>-->
+<!--    success({name:'yyt',age:22})-->
+<!--</script>-->
+</body>
+</html>

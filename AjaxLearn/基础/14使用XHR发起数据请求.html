@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /**
+     * 发起get请求
+     * Ajax的readyState属性
+     * 0------创建对象没调用open方法
+     * 1------open方法被调用
+     * 2------send方法被调用，响应头被接收
+     * 3------数据接受中，response属性中包含部分数据
+     * 4------Ajax请求完成，数据传输彻底成功或失败
+     * 查询字符串在url末尾使用?添加，用&符号分隔
+     * 携带参数的本质，无论是$.ajax()还是$.get()方法，都是将查询字符串拼接在url末尾
+     * url编码，url地址中只允许英文相关的字符，要包含中文，必须进行编码
+     * 原则：使用安全的字符，没有特殊用途或特殊意义的可打印字符
+     */
+    //创建对象
+    var xhr = new XMLHttpRequest()
+    //调用open函数
+    // xhr.open('GET','http://www.liulongbin.top:3006/api/getbooks')
+    //带参数，在url地址后面+？号，通过键值对的方式提供,这个称为查询字符串
+    // xhr.open('GET','http://www.liulongbin.top:3006/api/getbooks?id=1')
+    //带多个参数，用&分开
+    xhr.open('GET','http://www.liulongbin.top:3006/api/getbooks?id=1&bookname=西游记')
+    //调用send函数
+    xhr.send()
+    //监听onreadystatechange事件
+    xhr.onreadystatechange = function (){
+        //与返回数据的status不是一样的，console中的status是数据的一部分
+        if (xhr.readyState===4 && xhr.status===200){
+            //获取服务器响应的数据
+            console.log(xhr.responseText)
+        }
+    }
+</script>
+</body>
+</html>

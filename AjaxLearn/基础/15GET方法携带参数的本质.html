@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<script>
+// $.get('http://www.liulongbin.top:3006/api/getbooks',{id:1,bookname:'西游记'},function (res){
+//     console.log(res)
+// })
+// $.get("http://www.liulongbin.top:3006/api/getbooks?id=1&bookname=%E8%A5%BF%E6%B8%B8%E8%AE%B0",function (res){
+//     console.log(res)
+// })
+$.ajax({
+    method:'GET',
+    // url:'http://www.liulongbin.top:3006/api/getbooks',
+    url:'http://www.liulongbin.top:3006/api/getbooks?id=1&bookname=%E8%A5%BF%E6%B8%B8%E8%AE%B0',
+    data:{
+        id:1,
+        bookname:'西游记'
+    },
+    success:function (res){
+        console.log(res)
+    }
+})
+</script>
+</body>
+</html>

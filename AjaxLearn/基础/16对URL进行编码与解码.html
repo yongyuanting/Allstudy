@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /**
+     * encodeURL()进行编码
+     * decodeURL()进行解码
+     * post请求
+     */
+    // var str='永逺亭'
+    // var str2 = encodeURI(str)
+    // console.log(str2)
+    // var str3 ="%E6%B0%B8%E9%80%BA%E4%BA%AD"
+    // str3 = decodeURI(str3)
+    // console.log(str3)
+
+    //创建一个xhr对象
+    var xhr = new XMLHttpRequest()
+    //调用open函数
+    xhr.open('POST','http://www.liulongbin.top:3006/api/addbook')
+    //设置Content-Type属性（固定）
+    xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded')
+    //调用send函数
+    xhr.send('bookname=永逺亭&author=永远亭&publisher=幻想乡')
+    //监听onreadystatechange
+    xhr.onreadystatechange = function (){
+        if (xhr.readyState===4 && xhr.status===200){
+            console.log(xhr.responseText)
+        }
+    }
+</script>
+</body>
+</html>

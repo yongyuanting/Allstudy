@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="../lib/js/jquery.js"></script>
+<script>
+    $(function (){
+        //发起JSONP的请求
+        $.ajax({
+            url: 'http://ajax.frontend.itheima.net:3006/api.jsonp?name=zs&age=20',
+            //代表我们要发起jsonp的请求
+            dataType:'jsonp',
+            success:function (res){
+                console.log(res)
+            }
+        })
+    })
+</script>
+</body>
+</html>

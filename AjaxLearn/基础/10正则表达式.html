@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.js"></script>
+    <script src="node_modules/art-template/lib/template-web.js"></script>
+</head>
+<body>
+<script>
+    var str='hello'
+    var str1 = '<div>我是{{name}}</div>'
+    //成功是结果，失败是null
+    var pattern = /o/
+    var pattern1 = /{{([a-zA-Z]+)}}/
+    var result = pattern.exec(str)
+    var result1 = pattern1.exec(str1)
+    console.log(result)
+    console.log(result1[1])
+    console.log(result1)
+</script>
+</body>
+</html>

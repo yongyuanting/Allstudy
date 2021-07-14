@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<input type="file" id="file1">
+<button id="btnUpload">上传文件</button>
+<br>
+<img src="images/loading.gif" alt="" style="display: none" id="loading">
+<script>
+    $(function (){
+        //监听到页面中所有的ajax请求开始就会使用这个回调函数
+        $(document).ajaxStart(function (){
+            $('#loading').show()
+        })
+        //ajax结束就会使用这个回调函数
+        $(document).ajaxStop(function (){
+            $('#loading').hide()
+        })
+
+        $('#btnUpload').on('click',function (){
+            var files = $('#file1')[0].files
+            if (files.length<=0){
+                return alert('没有上传文件')
+            }
+            var fd = new FormData()
+            fd.append('avatar',files[0])
+            //发起jquery的Ajax请求
+            $.ajax({
+                method:'POST',
+                url:'http://www.liulongbin.top:3006/api/upload/avatar',
+                data:fd,
+                contentType:false,
+                processData:false,
+                success:function (res){
+                    console.log(res)
+                }
+            })
+        })
+
+    })
+</script>
+</body>
+</html>

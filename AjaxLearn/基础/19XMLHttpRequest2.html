@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /**
+     * 新特性
+     * timeout  ontimeout
+     * FormData 对象管理表单：模拟表单操作
+     *
+     */
+
+    // xhr = new XMLHttpRequest()
+    //
+    // //设置超时时间
+    // xhr.timeout = 3000
+    // //设置超时后的处理函数
+    // xhr.ontimeout = function (){
+    //     console.log('请求超时')
+    // }
+    //
+    // xhr.open('GET','http://www.liulongbin.top:3006/api/getbooks')
+    // xhr.send()
+    //
+    // xhr.onreadystatechange = function (){
+    //     if (xhr.readyState===4 && xhr.status===200){
+    //         console.log(xhr.responseText)
+    //     }
+    // }
+
+    //创建FormData实例
+    var fd = new FormData()
+    //调用append函数，向fd中追加数据
+    fd.append('uname','yyt')
+    fd.append('upwd','123456')
+
+    var xhr = new XMLHttpRequest()
+    xhr.open('POST','http://www.liulongbin.top:3006/api/formdata')
+    xhr.send(fd)
+    xhr.onreadystatechange = function (){
+        if (xhr.readyState===4 && xhr.status===200){
+            console.log(JSON.parse(xhr.responseText))
+        }
+    }
+</script>
+</body>
+</html>

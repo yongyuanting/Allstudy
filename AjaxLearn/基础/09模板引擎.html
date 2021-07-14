@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.js"></script>
+<!--    导入模板引擎,多一个template函数('模板id'，渲染对象)-->
+    <script src="node_modules/art-template/lib/template-web.js"></script>
+</head>
+<body>
+    <div id="container"></div>
+</body>
+<!--模板定义必须在script标签中-->
+<script type="text/html" id="tpl-user">
+<h1>{{name}}-----------{{age}}</h1>
+    {{test}}
+<!--原文输出@-->
+    {{@ test}}
+    <div>
+        {{if flag === 0}}
+            flag的值是0
+        {{/if}}
+        {{if flag === 1}}
+            flag的值是1
+        {{else if flag === 2}}
+            flag的值是2
+        {{/if}}
+    </div>
+
+    <ul>
+<!--        遍历-->
+        {{each hobby}}
+            <li>索引是：{{$index}},循环项是：{{$value}}</li>
+        {{/each}}
+    </ul>
+
+    <div>注册时间：{{regTime | ABC}}</div>
+</script>
+<script>
+
+    //位置不同，会报错
+    template.defaults.imports.ABC = function (date){
+        // console.log(date)
+        var y = date.getFullYear()
+        var m = date.getMonth() + 1
+        var d = date.getDate()
+        //return必须要
+        return y+'-'+m+'-'+d
+    }
+
+    //定义需要渲染的数据
+    var data={
+        name:'zs',
+        age:30,
+        test:'<h3>测试原文输出</h3>',
+        flag:2,
+        hobby:['吃饭','睡觉','写代码'],
+        regTime: new Date()
+    }
+    /*
+    * 模板引擎
+    * 减少字符串拼接操作
+    * 代码结构更清晰
+    * 代码易于阅读与维护
+    * */
+
+
+    // 调用template函数
+    var htmlStr = template('tpl-user',data);
+    console.log(htmlStr);
+    // $('#container').html(htmlStr);
+    document.getElementById("container").innerHTML=htmlStr;
+
+    //过滤器函数
+    // template.defaults.imports.ABC = function (date){
+    //     // console.log(date)
+    //     var y = date.getFullYear()
+    //     var m = date.getMonth() + 1
+    //     var d = date.getDate()
+    //     //return必须要
+    //     return y+'-'+m+'-'+d
+    // }
+
+</script>
+</html>
