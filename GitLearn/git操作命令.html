@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /**
+     *  git config --global user.name "yyt"
+     *  git config --global user.email "1207046999@qq.com"
+     *  git config --list --global
+     *  git init
+     *  git status -s
+     *  git add
+     *  git commit -m "需要添加的信息"
+     *  git checkout -- 01.html 撤销对文件的修改
+     *  git reset HEAD 要移除暂存区的文件名
+     *  跳过暂存区
+     *  直接从工作区到git仓库
+     *  git commit -a -m 将所有已经跟踪过的文件暂存起来一并提交，跳过 git add,并且要-m来提交一些信息
+     *  git rm -f 删除文件名     不仅移除库里的，本地文件也会变移除，危险
+     *  git rm --cached 文件名     只删除库里的，不改变本地文件
+     *  创建一个.gitignore忽略文件
+     *  git log 回顾提交历史
+     *  git log -数字，数字是最新的几条信息
+     *  git log -数字 --pretty-oneline    在一行上展示
+     *  git log -2 --pretty=format:%h | %an | %ar | %s  h哈希 an作者名   ar修订日期  是提交说明
+     *  回退到指定版本中
+     *  先git log
+     *  使用git reset --hard <哈希码可退回以前的版本>
+     *  在旧版本中使用 git reflog --pretty=oneline 查看命令操作的历史
+     *
+     *  上传文件，在github上创建新仓库
+     *  然后使用它的https方式或者ssh方式
+     *
+     *  git branch 创建分支
+     *  git checkout 切换分支
+     *  git checkout -b 名字  快速创建切换分支
+     *  git merge 需要合并的分支名 合并分支,需要先切换到主分支上才能合并
+     *  git branch -d 分支名称 删除分支,不能在删除的分支上
+     *  进行合并时两个文件有不同的修改，我们需要手挡解决冲突
+     *
+     *  git push -u 远程仓库别名 本地分支名称：远程分支名称
+     *  git remote show 远程仓库名称 查看远程仓库的所有分支列表
+     *  git checkout 远程分支的名字 可以把远程分支下载到本地仓库
+     *  git checkout -b 本地分支名称 远程仓库名称/远程分支名称 把远程的下下来然后更改为本地名称
+     *  git checkout -b reg origin/regiest
+     *  git pull 获取最新的远程分支
+     *  git push origin --delete 远程分支的名字
+     */
+</script>
+</body>
+</html>
