@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            padding: 10px;
+            border: 15px solid skyblue;
+            margin: 20px;
+        }
+    </style>
+    <script src="02-购物车/js/jquery.min.js"></script>
+</head>
+<body>
+    <div></div>
+    <script>
+        $(function (){
+            //1.width
+            alert($("div").width());
+            $("div").width(300);
+            //2.innerWidth  加padding
+            alert($("div").innerWidth());
+            //3.outerWidth 加padding border
+            alert($("div").outerWidth());
+            //4.outerWidth(true)  加 margin padding border
+            alert($("div").outerWidth(true));
+        })
+    </script>
+</body>
+</html>

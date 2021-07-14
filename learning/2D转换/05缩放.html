@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid pink;
+            margin: 100px auto;
+            transform-origin: right top;
+            transition: all .5s;
+        }
+        div:hover{
+            /*数字，不跟单位 1就是1倍，2就是2倍 0.5就是缩小*/
+            /*scale不会影响其他盒子,还可以设置缩放中心点*/
+            transform: scale(2,2);
+            /*动画加在这，离开后没有动画，直接回到原样*/
+            /*transition: all .5s;*/
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+123123123123
+</body>
+</html>

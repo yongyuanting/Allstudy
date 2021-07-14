@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        section{
+            display: flex;
+            width: 60%;
+            height: 150px;
+            background-color: skyblue;
+            margin: 0 auto;
+        }
+        section div:nth-child(1){
+            width: 100px;
+            height: 150px;
+            background-color: pink;
+        }
+        section div:nth-child(2){
+            flex: 1;
+            background-color: orangered;
+        }
+        section div:nth-child(3){
+            width: 100px;
+            height: 150px;
+            background-color: yellowgreen;
+        }
+        p{
+            display: flex;
+            width: 60%;
+            height: 150px;
+            background-color: skyblue;
+            margin: 100px auto;
+        }
+        p span{
+            /*从剩余空间去分配*/
+            /*剩余空间*/
+            flex: 1;
+        }
+        p span:nth-child(2){
+            flex: 2;
+            background-color: sandybrown;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+    <p>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+    </p>
+</div>
+</body>
+</html>

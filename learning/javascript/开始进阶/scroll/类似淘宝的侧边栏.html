@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0 100px;
+        }
+        .top{
+            width: 100%;
+            height: 500px;
+            background-color: orangered;
+        }
+        .banner{
+            width: 100%;
+            height: 600px;
+            background-color: skyblue;
+            position: relative;
+        }
+        .main{
+            width: 100%;
+            height: 500px;
+            background-color: yellowgreen;
+        }
+        .bottom{
+            width: 100%;
+            height: 500px;
+            background-color: mediumpurple;
+        }
+        .flexMy{
+            /*display: none;*/
+            position: absolute;
+            top: 100px;
+            right: -50px;
+            background-color: rosybrown;
+            width: 50px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<!--//页面被卷去的头部：通过window.pageYOffset获得,左侧就是pageXOffset-->
+<!--//元素被卷去用element.scrollTop,如果是整个页面，使用window.pageYOffset-->
+<div class="top"></div>
+<div class="banner">
+    <div class="flexMy"></div>
+</div>
+<script>
+    //获取元素
+    var sliderbar = document.querySelector('.flexMy');
+    var banner = document.querySelector('.banner');
+    var main = document.querySelector('.main');
+    //如果一开始在页面中看不到就会报错
+    // var maintop = main.offsetTop;
+    // console.log(maintop);
+    // console.log(banner.offsetTop);
+    //页面滚动事件scroll
+    document.addEventListener('scroll',function (){
+        //页面被卷去的头部
+            console.log(window.pageYOffset);
+        //当我们页面卷去头部大于等于500侧边栏改为固定定位
+        if (window.pageYOffset>=banner.offsetTop){
+            sliderbar.style.position="fixed"
+            sliderbar.style.right=50+'px'
+        }else if(window.pageYOffset<=banner.offsetTop){
+            sliderbar.style.position="absolute"
+            sliderbar.style.right=-50+'px'
+        }
+        if(window.pageYOffset>=banner.offsetTop){
+            sliderbar.innerHTML="<a href='#'>返回顶部</a>";
+        }else if(window.pageYOffset<=banner.offsetTop){
+            sliderbar.innerHTML="";
+        }
+    })
+    //offsetWidth 返回所有
+    //clientWidth 返回自己，包括边框和padding
+    //scrollWidth 返回自己，不含边框和padding,包括超出部分
+</script>
+<div class="main"></div>
+<div class="bottom"></div>
+</body>
+</html>

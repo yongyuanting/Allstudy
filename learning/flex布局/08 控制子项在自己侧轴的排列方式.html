@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            display: flex;
+            width: 600px;
+            height: 400px;
+            background-color: pink;
+        /*    只让第三个盒子下来*/
+        }
+        div span{
+            width: 150px;
+            height: 100px;
+            background-color: skyblue;
+            margin: 10px;
+        }
+        /*把2提到1去*/
+        div span:nth-child(2){
+            /*默认是0，-1比0小，所以在前面*/
+            order: -1;
+        }
+        div span:nth-child(3){
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+</div>
+</body>
+</html>

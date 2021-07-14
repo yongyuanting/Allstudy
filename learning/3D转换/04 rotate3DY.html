@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 500px;
+            height: 500px;
+            background-color: pink;
+            perspective: 200px;
+            padding-top: 1px;
+        }
+        img{
+            margin: 99px auto;
+            display: block;
+            transition: all 1s;
+        }
+        div:hover img{
+            transform: rotateY(360deg);
+        }
+    </style>
+</head>
+<body>
+<div>
+    <img src="media/pig.jpg" alt="">
+</div>
+</body>
+</html>

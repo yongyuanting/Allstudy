@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>
+    点击
+</button>
+<script>
+    var btn = document.querySelector('button');
+    var s=5;
+    btn.addEventListener('click',function (){
+        setInterval(function (){
+            if (s==0){
+                location.href='http://www.baidu.com';
+            }else{
+                btn.innerHTML="跳转时间剩余"+s+"秒";
+                s--;
+            }
+        },1000);
+    });
+</script>
+</body>
+</html>

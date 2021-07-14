@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .father{
+            width: 200px;
+            height: 200px;
+            background-color: orangered;
+        }
+        .son{
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+    <div class="son"></div>
+    <script>
+        var father = document.querySelector('.father');
+        var son = document.querySelector('.son');
+        father.addEventListener('mouseover',function (){
+            //经过子盒子也会触发
+            console.log(11);
+        });
+        son.addEventListener('mouseenter',function (){
+            //只有鼠标进入自身盒子才会触发
+            console.log(22);
+            //使用mouseenter推荐配合使用mouseleave
+        })
+    </script>
+</div>
+</body>
+</html>

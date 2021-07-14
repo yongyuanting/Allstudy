@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        video{
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+<!--    谷歌把自动播放禁用了-->
+<!--    <audio src="images/snow.mp3" controls="controls" loop="loop"></audio>-->
+<!--不同浏览器的解决方案-->
+<audio controls="controls">
+<!--    单标签-->
+    <source src="images/snow.mp3" type="audio/mpeg">
+    <source src="images/snow.mp3" type="audio/ogg">
+    您的浏览器不支持
+</audio>
+<!--<video src="images/mi.mp4" autoplay="autoplay"></video>-->
+<!--谷歌浏览器禁止自动播放 解决方案 给视频加静音属性muted-->
+<video controls="controls" muted="muted" loop="loop" poster="images/pig.jpg">
+    <source src="images/mi.mp4" type="video/mp4">
+    <source src="images/mi.mp4" type="video/ogg">
+</video>
+</body>
+</html>

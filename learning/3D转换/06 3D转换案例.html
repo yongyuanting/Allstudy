@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            perspective: 500px;
+        }
+        .box{
+            width: 500px;
+            height: 500px;
+            margin: 100px auto;
+            position: relative;
+            transition: all .6s;
+            /*让蓝色盒子保持3D*/
+            transform-style: preserve-3d;
+        }
+        .box:hover{
+            transform: rotateY(180deg);
+        }
+        .front,
+        .back{
+           position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            line-height: 500px;
+        }
+        .front {
+            background-color: pink;
+            z-index: 1;
+        }
+        .back{
+            background-color: skyblue;
+            /*背靠背旋转*/
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="front">正面</div>
+        <div class="back">背面</div>
+    </div>
+</body>
+</html>

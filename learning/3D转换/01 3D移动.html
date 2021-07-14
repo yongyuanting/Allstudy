@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            /*透视写到被观察元素的父盒子上面*/
+            perspective: 200px;
+        }
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+            /*transform: translateX(100px) translateY(100px);*/
+            /*还需要透视才能使用z轴*/
+            /*transform: translate3d(400px,100px,100px);*/
+            transform: translateX(100px) translateY(100px) translateZ(100px);
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

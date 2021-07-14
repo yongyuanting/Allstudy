@@ -1,0 +1,9 @@
+div{
+    width: 50%;
+    height: 200px;
+    background-color: skyblue;
+    float: left;
+}
+div:nth-child(1){
+    background-color: pink;
+}

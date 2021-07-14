@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 249px;
+            height: 35px;
+            border: 1px solid #000;
+            position: relative;
+        }
+        div::after{
+            /*display: inline-block;*/
+            content: "";
+            position: absolute;
+            top: 7px;
+            right: 7px;
+            width: 10px;
+            height: 10px;
+            border-right: 1px solid #000;
+            border-bottom: 1px solid #000;
+            transform: rotate(45deg);
+            transition: all .2s;
+        }
+    /*    鼠标经过div三角进行旋转*/
+        div:hover::after{
+            transform: rotate(225deg);
+            top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

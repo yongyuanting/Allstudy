@@ -1,0 +1,21 @@
+//子元素样式直接写到父元素里面就行，儿子住在父亲家里
+//有伪类、交集选择器、伪元素选择器前面需要加&
+.header{
+  width: 200px;
+  height: 200px;
+  background-color: skyblue;
+  a{
+    color: red;
+    &:hover{
+      color: #4B90ED;
+    }
+  }
+}
+.nav{
+  .logo{
+    color: #6CD559;
+  }
+  &::before{
+    content: "乱杀";
+  }
+}

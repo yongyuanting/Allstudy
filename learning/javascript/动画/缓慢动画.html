@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            background-color: orchid;
+        }
+    </style>
+</head>
+<body>
+<button class="btn500">出发</button>
+<button class="btn800">返回</button>
+<div></div>
+<script>
+    /*
+    * 让盒子每次移动的距离慢慢变小
+    * 缓动动画公式：(目标值-现在的位置)/10
+    * 10为步长
+    * 盒子当前位置等于目标位置就停止定时器
+    * */
+    function animate(obj,target){
+        clearInterval(obj.timer);
+        obj.timer = setInterval(function (){
+            //把步长值改为整数，不要出现小数
+            var step = (target-obj.offsetLeft)/10;
+            //当数据为正值，用向上取整,往大的取
+            // if (step>0){
+            //     step = Math.ceil(step)
+            // }else if(step<0){
+            //     //当数据为负值，向下取整,往小的取
+            //     step = Math.floor(step)
+            // }
+
+            //上面代码可优化为
+            step = step>0?Math.ceil(step):Math.floor(step);
+
+            if (obj.offsetLeft==target){
+                clearInterval(obj.timer);
+            }
+            //每次+1的步长改为慢慢变小的值
+            //步长公式(目标值-现在值)/10
+            //步长值设置到定时器里
+            obj.style.left = obj.offsetLeft+step+'px';
+        },15);
+    }
+    var btn500 = document.querySelector('.btn500');
+    var btn800 = document.querySelector('.btn800');
+    var div = document.querySelector('div');
+    btn500.addEventListener('click',function (){
+        animate(div,500);
+    })
+    btn800.addEventListener('click',function (){
+        animate(div,800);
+    })
+</script>
+</body>
+</html>

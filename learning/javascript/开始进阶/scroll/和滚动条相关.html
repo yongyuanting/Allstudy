@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            border: 10px solid skyblue;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+<div>
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+    我是内容
+</div>
+<script>
+    var div = document.querySelector('div');
+    // scrollTop是包含被隐去的上面的距离
+    console.log(div.scrollHeight);//不包含边框,内容大小
+    console.log(div.clientHeight);//不包含边框
+    // scroll滚动事件
+    div.addEventListener('scroll',function (){
+        console.log(div.scrollTop);
+    })
+</script>
+</body>
+</html>

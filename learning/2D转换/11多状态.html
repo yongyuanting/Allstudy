@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @keyframes move {
+            0%{
+                transform: translate(0,0);
+                box-shadow: 5px 10px 20px yellowgreen;
+                /*background:url("images/7ED6C995B2E2863A6D5AED0F4E0B3656.jpg");*/
+            }
+            25%{
+                transform: translate(1000px,0);
+                box-shadow: 5px 10px 20px mediumpurple;
+                /*background: url("images/95D45E5865070FC9B7C98E5ACA0E551B.jpg");*/
+            }
+            50%{
+                transform: translate(1000px,500px);
+                box-shadow: 5px 10px 20px lightgreen;
+                /*background: url("images/3865CFA997372AC9F6D03DA2364B325F.jpg");*/
+            }
+            75%{
+                transform: translate(0,500px);
+                box-shadow: 5px 10px 20px orangered;
+                /*background: url("images/9109C75BBEAB003E9448A03A068BEA13.jpg");*/
+            }
+            100%{
+                transform: translate(0,0);
+                box-shadow: 5px 10px 20px deepskyblue;
+                /*background: url("images/7665750F183ABD9C89683E69FC6C6960.jpg");*/
+            }
+        }
+        div{
+            width: 960px;
+            height: 719px;
+            background-color: skyblue;
+            animation-name: move;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        div:hover{
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

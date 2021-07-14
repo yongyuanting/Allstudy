@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img{
+            width: 150px;
+            /*顺时针旋转45度*/
+            /*transform: rotate(45deg);*/
+            border-radius: 50%;
+            border: 1px solid skyblue;
+        /*    过渡写到本身上，谁做动画给谁加*/
+            transition: all 1s;
+        }
+        img:hover{
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+<img src="media/pic.jpg" alt="">
+</body>
+</html>

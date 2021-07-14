@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number">
+<button>发送</button>
+<script>
+    var time = 3;
+    var btn = document.querySelector('button');
+    btn.addEventListener('click',function (){
+        btn.disabled=true;
+        var timer = setInterval(function (){
+            //先使用这个会先减减再执行后面的，会只到2秒就结束程序
+            // btn.innerHTML = '还剩下'+time+'秒'
+            // time--;
+            if(time == 0){
+                clearInterval(timer);
+                btn.disabled=false;
+                btn.innerHTML = '发送';
+                time = 3;
+            }else{
+                btn.innerHTML = '还剩下'+time+'秒'
+                time--;
+            }
+        },1000);
+    });
+</script>
+</body>
+</html>

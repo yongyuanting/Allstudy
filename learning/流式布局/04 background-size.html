@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 500px;
+            height: 500px;
+            border: 2px solid red;
+            background: url("images/dog.jpg") no-repeat;
+            /*图片宽度，图片高度，只写一个参数为宽度，高度省略了，会等比例缩放*/
+            /*也可以用%以父盒子为对象*/
+            /*cover完全覆盖，背景可能显示不全*/
+            /*contain宽度到100%或者高度到100%就不在缩放*/
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

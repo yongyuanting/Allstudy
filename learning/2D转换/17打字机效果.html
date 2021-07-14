@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            overflow: hidden;
+            font-size: 20px;
+            width: 0;
+            height: 30px;
+            background-color: skyblue;
+        /*    强制一行内显示*/
+            white-space: nowrap;
+            animation: w 4s steps(7) forwards;
+        }
+        @keyframes w {
+            0%{
+                width: 0;
+            }
+            100%{
+                width: 140px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>我这不是乱杀？</div>
+</body>
+</html>
